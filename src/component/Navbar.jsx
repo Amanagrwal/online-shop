@@ -12,7 +12,7 @@ function Navbar() {
  
   
   return (
-    <Nav $menuIcon={menuIcon}>
+    <Nav menuIcon={menuIcon}>
       <div className={menuIcon ? "navbar active" : "navbar"}>
         <ul className='navbar-lists'>
           <li>
